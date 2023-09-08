@@ -3,7 +3,7 @@ from pymongo import MongoClient
 
 
 # SHEETY_ENDPOINT = 'https://api.sheety.co/bdcd63f97245eb0bfa656da3c719d3f8/flightDeals/prices'
-DBURI = f'mongodb+srv://{urllib.parse.quote_plus("shivangism2")}:{urllib.parse.quote_plus("tyagi25")}@cluster0.qjm1u.mongodb.net/flightDb?retryWrites=true&w=majority'
+DBURI = f'mongodb+srv://{urllib.parse.quote_plus("Gaurav")}:{urllib.parse.quote_plus("Sahil")}@cluster0.qjm1u.mongodb.net/flightDb?retryWrites=true&w=majority'
 client = MongoClient(DBURI)
 db = client.flightDb
 flights_collection = db.flights
